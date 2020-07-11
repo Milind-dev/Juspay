@@ -113,11 +113,16 @@ input {
   margin-left: 140px;
   margin-top: 30px;
 }
+
 input:hover{
   background-color: blue;
   color: white;
   transition: 0.3s;
   transition-delay: 0.5s;
+}
+
+input + input {
+  margin-left: 12px;
 }
 
 #features{
