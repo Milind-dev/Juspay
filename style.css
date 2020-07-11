@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Avenir LT W04_55 Roman1475524', Avenir, Arial, sans-serif;
+    /* font-size: 30px; */
+    font-weight:bold;
+    color: grey;
+}
+
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: 'Avenir LT W04_55 Roman1475524', Avenir, Arial, sans-serif;
+  }
+  
+  ul {
+    background: darkorange;
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+      color: #fff;
+      background: white;
+      display: block;
+      float: left;
+      padding: 1rem;
+      font-size: 12px;
+      position: relative;
+      text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: grey;
+    background-color: white;
+  }
+  
+  li:hover {
+      background: yellow;
+      cursor: pointer;
+  }
+  li:focus{
+      color: blue;
+  }
+  
+  ul li ul {
+      background: orange;
+      visibility: visible;
+    opacity: 0;
+    min-width: 5rem;
+      position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+      left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
+
+
+#containers{
+  background-image: url("img/juspay-icon.png") ;
+  background-color: #cccccc;
+}
+#containers > h1{
+  margin-left: 116px;
+  margin-top: 12px;
+  font-size: 60px;
+  font-family: Georgia, serif;
+  font-weight: initial;
+} 
+#logo{
+  width: 30px;
+  margin-left: 112px;
+  float: left;
+  padding: 12px;
+}
+#containers{
+  width: auto;
+  height: 346px;
+}
+
+#containers > p{
+  margin-left: 116px;
+  margin-top: 12px;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  font-weight: initial;
+}
+
+
+input {
+  border: 1px solid blue;
+  width: 112px;
+  height: 32px;
+  color: blue;
+  border-radius: 5px;
+  margin-left: 140px;
+  margin-top: 30px;
+}
+input:hover{
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+  transition-delay: 0.5s;
+}
+
+#features{
+border: 12px solid green;
+display: flex;
+flex: 1;
+padding-left: 82px;
+}
+.padLr40{
+  width: 240px;
+  border: 2px solid whitesmoke;
+  height: 290px;
+  box-shadow:1px  red;
+  margin: 13px;
+  padding-left: 82px;
+  padding-bottom: 12px;
+}
+.padLr40 > p {
+  color: blue;
+  text-align: center;
+  padding-bottom: 12px;
+}
+.padLr40 > p + p {
+ color: #333;
+}
+span{
+  color: black;
+}
+
+div > img {
+  color: grey;
+  align-items: center;
+  /* border: 12px solid red; */
+  margin-left: 90px;
+  margin-top: 70px;
+  padding-bottom: 22px;
+  width: 80px;
+}
+#know {
+  color: blue;
+  margin-left: 156px;
+  color: darkslateblue;
+}
+#hr{
+  border: 1px solid grey;
+  padding: 1px;
+  width: 1100px;
+  background-color: grey;
+  margin-left: 100px;
+  margin-top: 12px;
+}
+#payment{
+  border: 1px solid crimson;
+  width: 190px;
+  height: 190px;
+}
+#payment >  .powerPayment{
+  display: flex;
+  flex-direction: row;
+}
+
